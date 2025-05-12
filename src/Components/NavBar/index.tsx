@@ -28,7 +28,7 @@ function NavBar() {
                     <div className={styles.topContainer}>
                         <div className={styles.logoContainer}>
                             <img
-                                src="/Static/Images/favicon/favicon.svg"
+                                src="public/Static/Images/favicon/favicon-96x96.png"
                                 alt="Side Rock Logo"
                                 className={styles.logo}
                             />
