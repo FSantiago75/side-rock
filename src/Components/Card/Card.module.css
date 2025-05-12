@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+.card {
+  background: transparent;
+  border: 2px solid #641721;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+
+  > h1 {
+    font-family: "Metal Mania", system-ui;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 2px #ffffffa6, 0 0 10px #831d2b;
+  }
+
+  > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+}
+
+.card:hover {
+  border-color: #831d2b;
+  box-shadow: 0 0 15px 2px #831d2be3;
+} 
