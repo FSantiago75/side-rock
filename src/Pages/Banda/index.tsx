@@ -1,7 +1,7 @@
 import Contacts from '../../Components/Contacts';
 import Card from '../../Components/Card';
 import styles from './Banda.module.css';
-import texts from '../../Utils/texts';
+
 export default function Banda() {
     return (
         <div className={styles.container}>
